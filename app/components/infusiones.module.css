@@ -1,0 +1,125 @@
+.left_main {
+  display: grid;
+  gap: 20px;
+  position: relative;
+}
+
+.imagen_taza {
+  width: 100%;
+  position: relative;
+}
+
+.humos {
+  position: absolute;
+  z-index: 100;
+}
+
+.humos:nth-child(1) {
+  top: -120px;
+  left: -50px;
+}
+
+.humos:nth-child(2) {
+  top: -150px;
+  left: 0px;
+}
+
+.cont_imagen {
+  width: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.rama {
+  width: 100%;
+  position: absolute;
+  bottom: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo img,
+.imagen_taza img,
+.rama img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ESTILOS DEL LADO DERECHO DE LA PAGINA */
+.right_main {
+  color: #f2f2f2;
+  display: grid;
+  gap: 2%;
+}
+
+.text_main {
+  font-size: 4rem;
+  line-height: 3.4rem;
+  margin-bottom: 20px;
+}
+
+.text_sec {
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+.text_bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.text_bottom p {
+  width: 70%;
+  font-weight: 200;
+  text-align: center;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #f84040;
+  padding: 20px 50px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 1.25rem;
+  font-weight: 500;
+  transition: all ease 300ms;
+}
+
+.boton img {
+  width: 38px;
+  height: auto;
+}
+
+.boton:hover {
+  background-color: #fe7171;
+}
+
+@media screen and (max-width: 1400px) {
+  .left_main {
+    width: 350px;
+    place-self: center;
+  }
+
+  .right_main {
+    text-align: center;
+  }
+
+  .text_main {
+    font-size: 3.2rem;
+    line-height: 2.8rem;
+    margin-bottom: 20px;
+  }
+
+  .text_sec {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+}
