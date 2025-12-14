@@ -123,3 +123,25 @@
     font-weight: 200;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .left_main {
+    width: 350px;
+    place-self: center;
+  }
+
+  .right_main {
+    text-align: center;
+  }
+
+  .text_main {
+    font-size: 3.2rem;
+    line-height: 2.8rem;
+    margin-bottom: 20px;
+  }
+
+  .text_sec {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+}

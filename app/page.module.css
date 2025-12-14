@@ -42,3 +42,11 @@
     gap: 110px;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .main {
+    min-width: 380px;
+    margin: 20px 0;
+    padding: 15px 15px 40px 15px;
+  }
+}
