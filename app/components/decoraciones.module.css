@@ -117,3 +117,9 @@
   width: 100%;
   height: auto;
 }
+
+@media screen and (max-width: 700px) {
+  .hoja1 {
+    display: none;
+  }
+}
