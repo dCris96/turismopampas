@@ -1,7 +1,6 @@
 .left_main {
-  display: grid;
-  gap: 20px;
-  position: relative;
+  width: 30%;
+  min-width: 370px;
 }
 
 .imagen_taza {
@@ -9,74 +8,56 @@
   position: relative;
 }
 
-.humos {
-  position: absolute;
-  z-index: 100;
-}
-
-.humos:nth-child(1) {
-  top: -120px;
-  left: -50px;
-}
-
-.humos:nth-child(2) {
-  top: -150px;
-  left: 0px;
-}
-
 .cont_imagen {
-  width: 350px;
-  border-radius: 20px;
+  width: 100%;
+  border-radius: 30px;
   overflow: hidden;
 }
 
 .rama {
-  width: 100%;
+  width: 370px;
   position: absolute;
-  bottom: -150px;
+  top: 60%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(calc(-50%));
 }
 
-.logo img,
-.imagen_taza img,
-.rama img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* ESTILOS DEL LADO DERECHO DE LA PAGINA */
+/* =======================================================================
+============== AQUI VA EL CODIGO DEL LADO DERECHO =====================
+==============    ONDE SE MUESTRAN LOS TEXTOS     =====================
+======================================================================= */
 .right_main {
+  width: 70%;
+  margin-top: 80px; /*Borrar con version de escritorio=================IMPORTANTE!!!!!!!!!!!!!!!!!!!!!*/
+  min-width: 370px;
   color: #f2f2f2;
   display: grid;
-  gap: 2%;
+  gap: 40px;
 }
 
-.text_main {
-  font-size: 4rem;
-  line-height: 3.4rem;
-  margin-bottom: 20px;
-}
-
-.text_sec {
-  font-size: 1.4rem;
-  font-weight: 200;
-  width: 660px;
-}
-
-.text_bottom {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.text_bottom p {
-  width: 70%;
-  font-weight: 200;
+.titulo {
+  font-size: clamp(24px, 7vw, 48px);
   text-align: center;
+}
+
+.descripcion {
+  font-size: clamp(18px, 4vw, 28px);
+  text-align: center;
+}
+
+.textos_mapa {
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+}
+
+.textos_mapa h2 {
+  font-size: clamp(20px, 5vw, 28px);
+}
+
+.textos_mapa p {
+  font-size: clamp(18px, 3vw, 28px);
 }
 
 .boton {
@@ -103,24 +84,38 @@
   background-color: #fe7171;
 }
 
-@media screen and (max-width: 768px) {
-  .left_main {
-    width: 350px;
-    place-self: center;
-  }
-
+@media screen and (min-width: 820px) {
   .right_main {
-    text-align: center;
+    margin-top: 0;
   }
+}
 
-  .text_main {
-    font-size: 3.2rem;
-    line-height: 2.8rem;
+@media screen and (min-width: 1000px) {
+  .titulo {
+    text-align: left;
+    line-height: 40px;
     margin-bottom: 20px;
   }
 
-  .text_sec {
-    font-size: 1rem;
-    font-weight: 200;
+  .descripcion {
+    text-align: left;
+    line-height: 30px;
+  }
+
+  .textos_mapa {
+    gap: 0;
+  }
+
+  .textos_mapa h2 {
+    line-height: 26px;
+  }
+
+  .textos_mapa p {
+    line-height: 30px;
+  }
+
+  .boton {
+    width: 350px;
+    height: 70px;
   }
 }

@@ -13,7 +13,7 @@ export default function Page() {
           <Image src={logo} alt="Logo de la marca" />
         </div>
 
-        <div className={styles.sons}>
+        <div className={styles.contenedores}>
           <SideLeft />
           <SideRight />
         </div>
