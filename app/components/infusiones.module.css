@@ -84,12 +84,6 @@
   background-color: #fe7171;
 }
 
-@media screen and (min-width: 820px) {
-  .right_main {
-    margin-top: 0;
-  }
-}
-
 @media screen and (min-width: 1000px) {
   .titulo {
     text-align: left;

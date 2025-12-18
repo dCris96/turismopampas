@@ -1,17 +1,17 @@
 .hoja1 {
   position: absolute;
-  width: 250px;
-  top: 5vh;
-  left: 30vw;
+  width: 200px;
+  top: -5vh;
+  left: -25vw;
   z-index: 10;
   animation: hojaAnimation 4s ease-in-out infinite;
 }
 
 .hoja3 {
   position: absolute;
-  width: 280px;
-  top: 150px;
-  right: 260px;
+  width: 220px;
+  top: 10vh;
+  right: -20vw;
   z-index: 10;
   animation: hojaAnimation 4s ease-in-out infinite;
   animation-delay: -3s;
@@ -19,19 +19,20 @@
 
 .hoja2 {
   position: absolute;
-  width: 200px;
-  bottom: 150px;
-  right: 290px;
+  width: 190px;
+  bottom: -10vh;
+  right: -15.625vw;
   z-index: 10;
   animation: hojaAnimation 4s ease-in-out infinite;
   animation-delay: -2.3s;
 }
 
 .hoja5 {
+  display: none;
   position: absolute;
-  width: 250px;
-  bottom: 20px;
-  right: 900px;
+  width: 200px;
+  bottom: 2.18vh;
+  right: 46%;
   z-index: 10;
   animation: hojaAnimation 4s ease-in-out infinite;
   animation-delay: -3s;
@@ -41,7 +42,7 @@
   position: absolute;
   width: 180px;
   top: 40%;
-  left: 270px;
+  left: -16.6vw;
   z-index: 10;
   animation: hojaAnimation 4s ease-in-out infinite;
   animation-delay: -1s;
@@ -60,6 +61,7 @@
 }
 
 .hoja_blur1 {
+  display: none;
   position: absolute;
   width: 300px;
   filter: blur(6px);
@@ -85,11 +87,12 @@
 }
 
 .hoja_blur6 {
+  display: none;
   position: absolute;
   width: 300px;
   filter: blur(7px);
-  bottom: -160px;
-  right: 240px;
+  bottom: -17.4vh;
+  right: 15.625vw;
   z-index: 10;
   animation: blurAnimation 4s ease-in-out infinite;
   animation-delay: -1s;
@@ -118,12 +121,90 @@
   height: auto;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 768px) {
   .hoja1 {
-    width: 130px;
+    top: 0vh;
+    left: 0vw;
   }
 
-  .hoja_blur1 {
-    width: 200px;
+  .hoja3 {
+    top: 10vh;
+    right: 0vw;
+  }
+
+  .hoja4 {
+    top: 40%;
+    left: 0vw;
+  }
+
+  .hoja2 {
+    bottom: 0vh;
+    right: 0vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hoja1 {
+    top: 0vh;
+    left: 25vw;
+  }
+
+  .hoja2 {
+    bottom: -10vh;
+    right: -7vw;
+  }
+
+  .hoja4 {
+    top: 40%;
+    left: -5vw;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .hoja1 {
+    top: 0vh;
+    left: 30vw;
+  }
+
+  .hoja2 {
+    bottom: -10vh;
+    right: 10vw;
+  }
+
+  .hoja4 {
+    top: 40%;
+    left: 6vw;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .hoja1 {
+    top: 5vh;
+    left: 35vw;
+  }
+
+  .hoja3 {
+    top: 16.3vh;
+    right: 15.625vw;
+  }
+
+  .hoja2 {
+    bottom: 16.3vh;
+    right: 15.625vw;
+  }
+
+  .hoja5 {
+    bottom: 2.18vh;
+    right: 46%;
+  }
+
+  .hoja4 {
+    top: 40%;
+    left: 16.6vw;
+  }
+
+  .hoja_blur1,
+  .hoja_blur6 {
+    display: block;
   }
 }

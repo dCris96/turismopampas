@@ -8,6 +8,7 @@ import logo from "@/public/logo.png";
 export default function Page() {
   return (
     <div className={styles.page}>
+      <Decoraciones />
       <main className={styles.main}>
         <div className={styles.logo}>
           <Image src={logo} alt="Logo de la marca" />
