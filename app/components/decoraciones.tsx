@@ -16,7 +16,7 @@ export default function Decoraciones() {
       <div className={styles.hoja1}>
         <Image src={hoja1} alt="Hoja 1" />
       </div>
-      {/* <div className={styles.hoja3}>
+      <div className={styles.hoja3}>
         <Image src={hoja3} alt="Hoja 3" />
       </div>
       <div className={styles.hoja2}>
@@ -30,7 +30,7 @@ export default function Decoraciones() {
       </div>
       <div className={styles.hoja4}>
         <Image src={hoja4} alt="Hoja 4" />
-      </div> */}
+      </div>
     </>
   );
 }

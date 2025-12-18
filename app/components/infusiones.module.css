@@ -28,7 +28,7 @@
 ======================================================================= */
 .right_main {
   width: 70%;
-  margin-top: 80px; /*Borrar con version de escritorio=================IMPORTANTE!!!!!!!!!!!!!!!!!!!!!*/
+  margin-top: 85px; /*Borrar con version de escritorio=================IMPORTANTE!!!!!!!!!!!!!!!!!!!!!*/
   min-width: 370px;
   color: #f2f2f2;
   display: grid;
@@ -36,12 +36,12 @@
 }
 
 .titulo {
-  font-size: clamp(24px, 7vw, 48px);
+  font-size: 2rem;
   text-align: center;
 }
 
 .descripcion {
-  font-size: clamp(18px, 4vw, 28px);
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -53,11 +53,11 @@
 }
 
 .textos_mapa h2 {
-  font-size: clamp(20px, 5vw, 28px);
+  font-size: 1.3rem;
 }
 
 .textos_mapa p {
-  font-size: clamp(18px, 3vw, 28px);
+  font-size: 1.2rem;
 }
 
 .boton {
@@ -93,13 +93,13 @@
 @media screen and (min-width: 1000px) {
   .titulo {
     text-align: left;
-    line-height: 40px;
+    font-size: 4rem;
+    line-height: 4rem;
     margin-bottom: 20px;
   }
 
   .descripcion {
     text-align: left;
-    line-height: 30px;
   }
 
   .textos_mapa {
@@ -107,11 +107,7 @@
   }
 
   .textos_mapa h2 {
-    line-height: 26px;
-  }
-
-  .textos_mapa p {
-    line-height: 30px;
+    font-size: 1.8rem;
   }
 
   .boton {
