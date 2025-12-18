@@ -35,14 +35,11 @@
   gap: 50px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 750px) {
   .sons {
     grid-template-columns: 1fr;
     gap: 110px;
   }
-}
-
-@media screen and (max-width: 750px) {
   .main {
     min-width: 380px;
     margin: 20px 0;
