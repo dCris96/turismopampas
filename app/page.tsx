@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import SideLeft from "@/app/components/sideLeft";
 import SideRight from "./components/sideRight";
 import Decoraciones from "./components/decoraciones";
-import logo from "@/public/logo.png";
+import logo from "@/public/logo.webp";
 
 export default function Page() {
   return (

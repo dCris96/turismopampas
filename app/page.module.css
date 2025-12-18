@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   font-family: var(--font-geist-sans);
-  background-image: url(../public/back.jpg);
+  background-image: url(../public/back.webp);
   background-size: cover;
   padding: 20px;
   position: relative;

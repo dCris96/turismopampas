@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./infusiones.module.css";
-import iconMap from "@/public/icon-map.png";
+import iconMap from "@/public/icon-map.svg";
 
 export default function SideRight() {
   return (

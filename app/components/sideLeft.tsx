@@ -1,9 +1,7 @@
 import Image from "next/image";
 import styles from "./infusiones.module.css";
-import taza from "@/public/taza.png";
-import rama from "@/public/rama.png";
-import humo1 from "@/public/humo1.png";
-import humo2 from "@/public/humo2.png";
+import taza from "@/public/taza.webp";
+import rama from "@/public/rama.webp";
 
 export default function SideLeft() {
   return (

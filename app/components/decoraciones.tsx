@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "@/app/components/decoraciones.module.css";
-import hoja1 from "@/public/hoja1.png";
-import hoja2 from "@/public/hoja2.png";
-import hoja3 from "@/public/hoja3.png";
-import hoja4 from "@/public/hoja4.png";
-import hoja5 from "@/public/hoja5.png";
-import hoja6 from "@/public/hoja6.png";
+import hoja1 from "@/public/hoja1.webp";
+import hoja2 from "@/public/hoja2.webp";
+import hoja3 from "@/public/hoja3.webp";
+import hoja4 from "@/public/hoja4.webp";
+import hoja5 from "@/public/hoja5.webp";
+import hoja6 from "@/public/hoja6.webp";
 
 export default function Decoraciones() {
   return (
