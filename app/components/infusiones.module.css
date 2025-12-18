@@ -103,7 +103,7 @@
   background-color: #fe7171;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 768px) {
   .left_main {
     width: 350px;
     place-self: center;
