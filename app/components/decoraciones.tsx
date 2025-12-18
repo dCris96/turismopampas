@@ -10,13 +10,13 @@ import hoja6 from "@/public/hoja6.png";
 export default function Decoraciones() {
   return (
     <>
-      <div className={styles.hoja_blur1}>
+      {/* <div className={styles.hoja_blur1}>
         <Image className={styles.blur_1} src={hoja4} alt="Hoja 4 con blur" />
-      </div>
+      </div> */}
       <div className={styles.hoja1}>
         <Image src={hoja1} alt="Hoja 1" />
       </div>
-      <div className={styles.hoja3}>
+      {/* <div className={styles.hoja3}>
         <Image src={hoja3} alt="Hoja 3" />
       </div>
       <div className={styles.hoja2}>
@@ -30,7 +30,7 @@ export default function Decoraciones() {
       </div>
       <div className={styles.hoja4}>
         <Image src={hoja4} alt="Hoja 4" />
-      </div>
+      </div> */}
     </>
   );
 }
