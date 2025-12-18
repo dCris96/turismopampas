@@ -85,6 +85,9 @@
 }
 
 @media screen and (min-width: 1000px) {
+  .right_main {
+    margin-top: 0;
+  }
   .titulo {
     text-align: left;
     font-size: 4rem;
