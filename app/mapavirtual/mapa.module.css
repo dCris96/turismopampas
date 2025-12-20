@@ -1,0 +1,8 @@
+.contenedor {
+  min-height: 100vh;
+  position: relative;
+}
+
+.map_container {
+  height: 100%;
+}

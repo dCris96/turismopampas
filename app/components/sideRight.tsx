@@ -21,7 +21,7 @@ export default function SideRight() {
           Visita nuestro mapa turistico y descubre lugares impresionantes que
           deberias conocer.
         </p>
-        <Link href="#" className={styles.boton}>
+        <Link href="/mapavirtual" className={styles.boton}>
           <Image src={iconMap} alt="Icono de mapa" />
           Mapa turístico
         </Link>
