@@ -13,7 +13,7 @@ const Map = dynamic(() => import("./Mapa"), {
 export default function Home() {
   return (
     <main className={styles.contenedor}>
-      <div>
+      <div className={styles.encabezado}>
         <h1>Mi Proyecto con Leaflet</h1>
         <Link href="./">Atrás</Link>
       </div>

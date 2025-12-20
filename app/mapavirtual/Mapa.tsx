@@ -18,7 +18,7 @@ export default function Mapa() {
     <MapContainer
       center={position}
       zoom={13}
-      style={{ height: "100%", width: "100%" }}
+      style={{ height: "100vh", width: "100vw" }}
     >
       <TileLayer
         attribution="&copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"

@@ -1,8 +1,25 @@
 .contenedor {
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* La pantalla completa */
+  width: 100vw;
+  margin: 0;
+  overflow: hidden; /* Evita scrolls accidentales */
   position: relative;
 }
 
+.encabezado {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
 .map_container {
-  height: 100%;
+  flex-grow: 1; /* Esto hace que el mapa use TODO el espacio que sobre */
+  width: 100%;
+  position: relative;
+  z-index: 10;
 }
